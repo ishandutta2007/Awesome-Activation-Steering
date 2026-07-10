@@ -118,3 +118,14 @@ Before updating this documentation repository layout, let me know how you would 
 * I can write a detailed technical explanation focusing on the **mathematics of Sparse Autoencoder loss formulations** (comprising Mean Squared Error reconstruction loss plus an $L_1$ sparsity penalty parameter) and how they isolate monosemantic nodes cleanly [INDEX: 2].
 
 
+
+## ⭐ Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Activation-Steering&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Steering&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Steering&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Activation-Steering&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
