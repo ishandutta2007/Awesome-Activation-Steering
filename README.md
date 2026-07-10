@@ -14,7 +14,8 @@ The implementation of runtime representation steering has transitioned from coar
 
 
 ```mermaid
-[Hidden Token Shifts (Pre-2022)] ───> [Contrastive Activation Steering (2023)] ───> [Sparse Autoencoder Steering (SAEs, 2024)] ───> [Cross-Modal Unified Enclaves (Present)](Unstructured Polysemantic Blurs)       (Pairwise Coarse Semantic Vectors)           (Monosemantic Concept-Level Clamping)         (Omnidirectional Spatial Token Adjust)
+flowchart LR
+    A["Hidden Token Shifts (Pre-2022)\n(Unstructured Polysemantic Blurs)"] --> B["Contrastive Activation Steering (2023)\n(Pairwise Coarse Semantic Vectors)"] --> C["Sparse Autoencoder Steering (SAEs, 2024)\n(Monosemantic Concept-Level Clamping)"] --> D["Cross-Modal Unified Enclaves (Present)\n(Omnidirectional Spatial Token Adjust)"]
 ```
 
 *   **The Coarse Token-Shift Era (Traditional Prototyping, Pre-2022)**
@@ -60,8 +61,15 @@ Activation Steering methodologies are strictly categorized based on the specific
 To clamp and steer semantic features safely without introducing execution stalls, the deployment infrastructure hooks the dictionary layers straight into the transformer's register blocks.
 
 
+**The SAE Monosemantic Steering Loop**
 ```mermaid
-The SAE Monosemantic Steering Loop[Input Latent Hidden Vector h_l] ───> [Encoder Weights W_enc] ───> [Isolate Feature Activations f(h)]│(Apply Precision Clamp/Damp)│▼[Steered Latent Output Vector] <─── [Decoder Weights W_dec] <─── [Modify Target Feature Coordinate]
+flowchart TB
+    A["Input Latent Hidden Vector h_l"] --> B["Encoder Weights W_enc"]
+    B --> C["Isolate Feature Activations f(h)"]
+    C -->|"Apply Precision Clamp/Damp"| D["Modify Target Feature Coordinate"]
+    D --> E["Decoder Weights W_dec"]
+    E --> F["Steered Latent Output Vector"]
+    A --> F
 ```
 
 
