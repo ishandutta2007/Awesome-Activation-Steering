@@ -1,5 +1,8 @@
-# Awesome-Activation-Steering
-## Activation Steering in AI: History, Progression, Variants, & Applications
+# 🚀 Awesome-Activation-Steering
+
+![Banner](assets/banner.svg)
+
+## 🧠 Activation Steering in AI: History, Progression, Variants, & Applications
 
 **Activation Steering**—alternatively designated as representation steering, concept clamping, latent space intervention, or dictionary editing—is an advanced post-training alignment, control, and interpretability paradigm in artificial intelligence. It focuses on dynamically modifying the internal behavioral characteristics, factual outputs, or safety guardrails of a foundational neural network at inference time by directly manipulating its hidden layer activation vectors ($h$). 
 
@@ -7,7 +10,7 @@ While traditional model alignment frameworks (such as SFT or DPO) require perman
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 🕰️ 1. The Macro Chronological Evolution
 
 The implementation of runtime representation steering has transitioned from coarse, single-token hidden shifts to semantic text comparisons, multi-layer activation injections, and modern monosemantic overcomplete dictionary feature clamping.
 
@@ -27,7 +30,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Algorithmic Steering Variants
+## ⚙️ 2. Core Functional & Algorithmic Steering Variants
 
 Activation Steering methodologies are strictly categorized based on the specific mathematical formulations used to isolate, scale, and inject steering vectors at inference time.
 
@@ -40,7 +43,7 @@ Activation Steering methodologies are strictly categorized based on the specific
 
 ---
 
-## 3. The SAE Feature-Steering Inversion Matrix
+## 🧮 3. The SAE Feature-Steering Inversion Matrix
 
 To clamp and steer semantic features safely without introducing execution stalls, the deployment infrastructure hooks the dictionary layers straight into the transformer's register blocks.
 
@@ -64,7 +67,7 @@ flowchart TB
 
 ---
 
-## 4. Production Engineering Challenges & Cluster Solutions
+## 🏭 4. Production Engineering Challenges & Cluster Solutions
 
 Deploying real-time activation steering vectors across large-scale distributed cloud infrastructures introduces unique memory bus and multi-model scaling constraints [INDEX: 22].
 
@@ -75,7 +78,7 @@ Deploying real-time activation steering vectors across large-scale distributed c
 
 ---
 
-## 5. Frontier Real-World AI Security Applications
+## 🛡️ 5. Frontier Real-World AI Security Applications
 
 | Application | Details | Year First Used | Paper Link |
 |---|---|---|---|
@@ -85,7 +88,7 @@ Deploying real-time activation steering vectors across large-scale distributed c
 
 ---
 
-## References
+## 📚 References
 1. Ouyang, L., et al. (2022). Training language models to follow instructions with human feedback. *Advances in Neural Information Processing Systems (NeurIPS)* [INDEX: 11].
 2. Turner, A., et al. (2023). Activation addition: Steering language models without fine-tuning. *arXiv preprint arXiv:2308.10248*.
 3. Bricken, B., et al. (2023). Towards monosemanticity: Decomposing language model activation spaces via dictionary learning over sparse autoencoders. *Anthropic Alignment Research Monograph* [INDEX: 2].
